@@ -1240,8 +1240,8 @@ CSP_SCRIPT_SRC = (
     "https://www.paypalobjects.com",
     "https://ssl.google-analytics.com",
 )
-CSP_IMG_SRC = ("'self'",)
-CSP_STYLE_SRC = ("'self'", "'unsafe-inline'",)
+CSP_IMG_SRC = ("'self'", "https://ssl.google-analytics.com")
+CSP_STYLE_SRC = ("'self'",)
 CSP_OBJECT_SRC = ("'none'",)
 CSP_CHILD_SRC = ("https://ssl.google-analytics.com",)
 
